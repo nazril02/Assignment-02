@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
  
+ 
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -14,17 +15,21 @@
 .color-2{ color: rgb(5, 212, 223);}
 .color-3{color: rgb(93, 88, 239);}
 
-/* navbar style */
+/* navbar style */*
 .school{ 
      font-size: 32px;
      font-weight: 700;
-     margin: 0px;
-     text-align: center;
+     text-align:center;
+     padding-left: 20px;
      
+}
+.icon{
+    width:80px;
+    height: 80px;
 }
 .nav-item{ 
     list-style: none;
-    margin-right: 30px;
+    margin-right: 25px;
 
 }
 .nav-link{ 
@@ -36,8 +41,8 @@
     height: 62px;
     justify-content: center;
     align-items: center;
-    gap: 186px;
-    margin: 10px auto
+    gap: 176px;
+    margin: 10px auto;
 
 }
 .nav-button{ 
@@ -49,12 +54,13 @@
      border: none;
      border-radius:12px ;
 }
+
 .banner{ 
-    width: 1158.61px;
-height: 575px;
+    width:1158px;
+height:auto;
 gap: 186px;
 flex-direction: row;
-margin-top: 50px;
+margin-top: 10px 50px;
 }
 .banner-container{ 
 position: static;
@@ -62,4 +68,162 @@ width: 640px;
 height: 331px;
 gap: 24px;
 margin: 0px 50px;
+border: 1px;
+
 }
+.banner-title{ 
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 20px;
+    font-weight:400px ;
+}
+.banner-button{ 
+    width: 197px;
+height: 50px;
+justify-content: center;
+background : rgb(17, 17, 17);
+border-radius: 12px;
+padding: 10px;
+color:   rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700px;
+}
+.menu-icon{ 
+    display: none;
+
+}
+
+
+
+.school-container{ 
+    weight:1160px;
+    height:481px;
+    height: 481.5px;
+ 
+}
+.standard-curiculam{
+    margin-top: 30px;
+
+width: 1440px;
+height: 879px;
+top: 675px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 80;
+padding: 60px 0px 60px 0px;
+
+
+}
+
+.school-title{
+    font-size: 46px;
+    font-weight: 700;
+    
+    text-align: center;
+}
+
+.kinder{
+    width: 367.8px;
+height: 476.78px;
+padding: 20px;
+margin: 18px;
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.elementary{
+    width: 367.8px;
+    height: 476.78px;
+    padding: 20px;
+    margin: 18px;
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.middle{ width: 367.8px;
+    height: 476.78px;
+    padding: 20px;
+    margin: 18px;
+    box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+
+.kinder-photo{
+    
+margin-left: 85px;
+}
+.kinder-head{
+font-size: 24px;
+font-weight: 700;
+align-items: center;
+padding-left: 60px;
+}
+.ele-photo{
+    margin-left: 85px;
+}
+.ele-head{
+     
+ padding-left:60px ;
+font-size: 24px;
+font-weight: 700;
+align-items: center;
+}
+.middle-photo{
+    margin-left: 80px;
+}
+.middle-head{
+      
+ padding-left:60px ;
+ font-size: 24px;
+ font-weight: 700;
+ align-items: center;  
+}
+@media screen and (max-width: 576px)
+  {.nav-links,.school,.nav-button { display: none;
+
+  } .navbar{ 
+    justify-content: space-between;
+    padding:10px 10px;
+    border-bottom: 2px solid coral;
+  }
+.menu-icon{ 
+    display: block;
+}
+.banner-image{width: 100%;}
+.banner{ display: flex;
+    flex-direction: column;
+}
+.banner-image{
+    order: -1;
+}
+.banner-container:{ 
+    justify-content: center;
+    width:90%;
+}
+.standard{
+    flex-direction: column;
+    min-width: 90%;
+    order: 1;
+    margin-bottom: 30px;
+    justify-content: start;
+}
+} 
+ 
+    
+    
